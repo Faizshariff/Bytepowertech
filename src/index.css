@@ -3,3 +3,207 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+
+#app-div{
+    overflow-x: hidden;
+}
+#services-section{
+    display: block;
+}
+
+#employee-section{
+    display: block;
+}
+
+#title{
+font-style: normal;
+font-weight: 600;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.05em;
+}
+
+.header{
+font-style: normal;
+font-weight: 400;
+line-height: 29px;
+}
+
+
+.w-100vw{
+    width: 100vw;
+}
+
+.w-80vw{
+    width: 180vw;
+}
+
+.w-50vw{
+    width: 50vw;
+}
+
+.w-20vw{
+    width: 20vw;
+}
+
+.w-25vw{
+    width: 25vw;
+}
+
+.w-30vw{
+    width: 30vw;
+}
+
+.w-45vw{
+    width: 45vw;
+}
+
+.w-40vw{
+    width: 40vw;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+
+.h-40vh{
+    height: 40vh;
+}
+
+.h-30vh{
+    height: 30vh;
+}
+
+.h-20vh{
+    height: 20vh;
+}
+
+.h-25vh{
+    height: 25vh;
+}
+
+.h-60vh{
+    height: 60vh;
+}
+
+.top-30vh{
+    top: 30vh;
+}
+.bottom-5vh{
+    bottom: 5vh;
+}
+.left-5vw{
+    left: 5vw;
+}
+
+.mr-10vw{
+    margin-right: 10vw;
+}
+
+.mr-8vw{
+    margin-right: 8vw;
+}
+
+.mr-5vw{
+    margin-right: 5vw;
+}
+
+.mr-3vw{
+    margin-right: 3vw;
+}
+
+.ml-45vw{
+    margin-left: 45vw;
+} 
+
+.ml-8vw{
+    margin-left: 8vw;
+}
+
+.ml-40vw{
+    margin-left: 40vw;
+} 
+
+.ml-35vw{
+    margin-left: 35vw;
+} 
+
+#mobbar-show{
+    display: block;
+
+  }
+#mobbar-hide{
+    display: none;
+  }
+
+#hero-h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 500;
+
+}
+
+#hero-p{
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+text-align: justify;
+color: #5B5B5B;
+}
+
+.image-container {
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 38vw;
+    display: grid;
+    align-items: end;
+    border-radius: 15px;
+    margin-right: 10vw;
+  }
+  
+.btn-rad{
+    border-bottom-left-radius:  10px !important ;
+    border-bottom-right-radius: 10px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius:  0px !important ;
+}
+
+  /* sm */
+@media screen and (min-width: 576px) {
+    /* styles */
+    .image-container {
+        height: 30vh;
+        width: 25vw;
+        margin-right: 6vw;
+      }
+  }
+  
+  /* md */
+  @media screen and (min-width: 768px) {
+    /* styles */
+  }
+  
+  /* lg */
+  @media screen and (min-width: 992px) {
+    /* styles */
+    .image-container {
+        height: 55vh;
+        width: 17vw;
+        margin-right: 3vw;
+      }
+  }
+  
+  /* xl */
+  @media screen and (min-width: 1200px) {
+    /* styles */
+  }
+
+  /* xl */
+  @media screen and (min-width: 1920px) {
+    /* styles  */
+  }
+  
+  
